@@ -1,0 +1,5 @@
+subject_id,phase,window_start,window_end,variables,modalities,link_strength,claim_guardrail
+MMASH_001,recovery,recovery,recovery,lying_ratio|mean_hr|sleep_efficiency|sleep_minutes|steps_per_minute|vector_magnitude|waso,behavioral|standard_measures,7.9780,Temporal concordance only; no causal inference.
+MMASH_002,recovery,recovery,recovery,lying_ratio|mean_hr|steps_per_minute|vector_magnitude,behavioral|standard_measures,2.5751,Temporal concordance only; no causal inference.
+MMASH_003,recovery,recovery,recovery,lying_ratio|mean_hr|steps_per_minute|vector_magnitude,behavioral|standard_measures,2.0017,Temporal concordance only; no causal inference.
+MMASH_004,recovery,recovery,recovery,lying_ratio|mean_hr|steps_per_minute|vector_magnitude,behavioral|standard_measures,2.7848,Temporal concordance only; no causal inference.

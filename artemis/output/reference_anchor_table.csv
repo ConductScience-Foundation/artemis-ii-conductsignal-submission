@@ -1,0 +1,93 @@
+subject_id,variable,reference_dataset,reference_filter,reference_percentile,mapping_status,provenance
+MMASH_001,cortisol_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,87.5,mapped,MMASH:cortisol_norm:derived_segments
+MMASH_001,lying_ratio,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,91.7,mapped,MMASH:lying_ratio:derived_segments
+MMASH_001,mean_hr,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,19.4,mapped,MMASH:mean_hr:derived_segments
+MMASH_001,melatonin_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:melatonin_norm:derived_segments
+MMASH_001,sleep_efficiency,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,80.0,mapped,MMASH:sleep_efficiency:derived_segments
+MMASH_001,sleep_minutes,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,20.0,mapped,MMASH:sleep_minutes:derived_segments
+MMASH_001,steps_per_minute,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,2.8,mapped,MMASH:steps_per_minute:derived_segments
+MMASH_001,vector_magnitude,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,2.8,mapped,MMASH:vector_magnitude:derived_segments
+MMASH_001,waso,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,40.0,mapped,MMASH:waso:derived_segments
+MMASH_002,cortisol_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,25.0,mapped,MMASH:cortisol_norm:derived_segments
+MMASH_002,lying_ratio,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:lying_ratio:derived_segments
+MMASH_002,mean_hr,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,2.8,mapped,MMASH:mean_hr:derived_segments
+MMASH_002,melatonin_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:melatonin_norm:derived_segments
+MMASH_002,sleep_efficiency,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,20.0,mapped,MMASH:sleep_efficiency:derived_segments
+MMASH_002,sleep_minutes,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,60.0,mapped,MMASH:sleep_minutes:derived_segments
+MMASH_002,steps_per_minute,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,97.2,mapped,MMASH:steps_per_minute:derived_segments
+MMASH_002,vector_magnitude,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,13.9,mapped,MMASH:vector_magnitude:derived_segments
+MMASH_002,waso,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,80.0,mapped,MMASH:waso:derived_segments
+MMASH_003,cortisol_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,12.5,mapped,MMASH:cortisol_norm:derived_segments
+MMASH_003,lying_ratio,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,83.3,mapped,MMASH:lying_ratio:derived_segments
+MMASH_003,mean_hr,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,8.3,mapped,MMASH:mean_hr:derived_segments
+MMASH_003,melatonin_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:melatonin_norm:derived_segments
+MMASH_003,sleep_efficiency,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,40.0,mapped,MMASH:sleep_efficiency:derived_segments
+MMASH_003,sleep_minutes,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:sleep_minutes:derived_segments
+MMASH_003,steps_per_minute,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:steps_per_minute:derived_segments
+MMASH_003,vector_magnitude,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:vector_magnitude:derived_segments
+MMASH_003,waso,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:waso:derived_segments
+MMASH_004,cortisol_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,37.5,mapped,MMASH:cortisol_norm:derived_segments
+MMASH_004,lying_ratio,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,97.2,mapped,MMASH:lying_ratio:derived_segments
+MMASH_004,mean_hr,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,5.6,mapped,MMASH:mean_hr:derived_segments
+MMASH_004,melatonin_norm,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,100.0,mapped,MMASH:melatonin_norm:derived_segments
+MMASH_004,sleep_efficiency,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,60.0,mapped,MMASH:sleep_efficiency:derived_segments
+MMASH_004,sleep_minutes,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,80.0,mapped,MMASH:sleep_minutes:derived_segments
+MMASH_004,steps_per_minute,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,5.6,mapped,MMASH:steps_per_minute:derived_segments
+MMASH_004,vector_magnitude,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,5.6,mapped,MMASH:vector_magnitude:derived_segments
+MMASH_004,waso,PhysioNet MMASH,4 healthy adult MMASH subject records; segment-level empirical values,60.0,mapped,MMASH:waso:derived_segments
+NHANES_REF_001,albumin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",16.7,mapped,NHANES:LBXSAL
+NHANES_REF_001,alt,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",9.4,mapped,NHANES:LBXSATSI
+NHANES_REF_001,ast,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",3.6,mapped,NHANES:LBXSASSI
+NHANES_REF_001,bmi,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",33.6,mapped,NHANES:BMXBMI
+NHANES_REF_001,creatinine,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",21.1,mapped,NHANES:LBXSCR
+NHANES_REF_001,diastolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",99.4,mapped,NHANES:diastolic_bp_mean
+NHANES_REF_001,glucose,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",7.5,mapped,NHANES:LBXSGL
+NHANES_REF_001,hematocrit,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",26.2,mapped,NHANES:LBXHCT
+NHANES_REF_001,hemoglobin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",21.1,mapped,NHANES:LBXHGB
+NHANES_REF_001,platelets,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",42.7,mapped,NHANES:LBXPLTSI
+NHANES_REF_001,rbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",23.4,mapped,NHANES:LBXRBCSI
+NHANES_REF_001,systolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",95.4,mapped,NHANES:systolic_bp_mean
+NHANES_REF_001,total_protein,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",9.0,mapped,NHANES:LBXSTP
+NHANES_REF_001,wbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",18.3,mapped,NHANES:LBXWBCSI
+NHANES_REF_002,albumin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",58.8,mapped,NHANES:LBXSAL
+NHANES_REF_002,alt,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",57.0,mapped,NHANES:LBXSATSI
+NHANES_REF_002,ast,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",59.3,mapped,NHANES:LBXSASSI
+NHANES_REF_002,bmi,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",9.3,mapped,NHANES:BMXBMI
+NHANES_REF_002,creatinine,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",50.4,mapped,NHANES:LBXSCR
+NHANES_REF_002,diastolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",55.6,mapped,NHANES:diastolic_bp_mean
+NHANES_REF_002,glucose,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",50.0,mapped,NHANES:LBXSGL
+NHANES_REF_002,hematocrit,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",57.1,mapped,NHANES:LBXHCT
+NHANES_REF_002,hemoglobin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",61.8,mapped,NHANES:LBXHGB
+NHANES_REF_002,platelets,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",55.2,mapped,NHANES:LBXPLTSI
+NHANES_REF_002,rbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",49.2,mapped,NHANES:LBXRBCSI
+NHANES_REF_002,systolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",51.0,mapped,NHANES:systolic_bp_mean
+NHANES_REF_002,total_protein,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",53.8,mapped,NHANES:LBXSTP
+NHANES_REF_002,wbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",49.0,mapped,NHANES:LBXWBCSI
+NHANES_REF_003,albumin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",58.8,mapped,NHANES:LBXSAL
+NHANES_REF_003,alt,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",38.2,mapped,NHANES:LBXSATSI
+NHANES_REF_003,ast,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",65.3,mapped,NHANES:LBXSASSI
+NHANES_REF_003,bmi,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",14.3,mapped,NHANES:BMXBMI
+NHANES_REF_003,creatinine,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",83.1,mapped,NHANES:LBXSCR
+NHANES_REF_003,diastolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",4.4,mapped,NHANES:diastolic_bp_mean
+NHANES_REF_003,glucose,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",19.0,mapped,NHANES:LBXSGL
+NHANES_REF_003,hematocrit,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",63.7,mapped,NHANES:LBXHCT
+NHANES_REF_003,hemoglobin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",63.5,mapped,NHANES:LBXHGB
+NHANES_REF_003,platelets,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",30.9,mapped,NHANES:LBXPLTSI
+NHANES_REF_003,rbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",33.1,mapped,NHANES:LBXRBCSI
+NHANES_REF_003,systolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",13.9,mapped,NHANES:systolic_bp_mean
+NHANES_REF_003,total_protein,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",53.8,mapped,NHANES:LBXSTP
+NHANES_REF_003,wbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",39.5,mapped,NHANES:LBXWBCSI
+NHANES_REF_004,albumin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",10.9,mapped,NHANES:LBXSAL
+NHANES_REF_004,alt,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",9.4,mapped,NHANES:LBXSATSI
+NHANES_REF_004,ast,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",7.9,mapped,NHANES:LBXSASSI
+NHANES_REF_004,bmi,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",92.7,mapped,NHANES:BMXBMI
+NHANES_REF_004,creatinine,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",12.5,mapped,NHANES:LBXSCR
+NHANES_REF_004,diastolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",94.5,mapped,NHANES:diastolic_bp_mean
+NHANES_REF_004,glucose,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",71.3,mapped,NHANES:LBXSGL
+NHANES_REF_004,hematocrit,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",33.9,mapped,NHANES:LBXHCT
+NHANES_REF_004,hemoglobin,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",33.0,mapped,NHANES:LBXHGB
+NHANES_REF_004,platelets,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",89.6,mapped,NHANES:LBXPLTSI
+NHANES_REF_004,rbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",27.7,mapped,NHANES:LBXRBCSI
+NHANES_REF_004,systolic_bp,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",86.1,mapped,NHANES:systolic_bp_mean
+NHANES_REF_004,total_protein,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",26.8,mapped,NHANES:LBXSTP
+NHANES_REF_004,wbc,NHANES 2017-2018,"NHANES 2017-2018 age 30-55, non-smoker where available, recreationally active where available",35.0,mapped,NHANES:LBXWBCSI

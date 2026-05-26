@@ -1,0 +1,5 @@
+astronaut,finding_count,strongest_score,mean_score,max_abs_effect,modalities,change_point_count,missing_count,strongest_claim
+MMASH_001,1,0.602,0.602,0.655,"behavioral, standard_measures",1,0,"MMASH_001 showed its largest public MMASH-derived transit-window change in vector_magnitude, with cross-modal support."
+MMASH_002,1,0.685,0.685,1.318,"behavioral, standard_measures",1,0,"MMASH_002 showed its largest public MMASH-derived transit-window change in lying_ratio, with cross-modal support."
+MMASH_003,1,0.888,0.888,2.944,"behavioral, standard_measures",1,0,"MMASH_003 showed its largest public MMASH-derived transit-window change in steps_per_minute, with cross-modal support."
+MMASH_004,1,0.720,0.720,1.602,"behavioral, standard_measures",1,0,"MMASH_004 showed its largest public MMASH-derived transit-window change in lying_ratio, with cross-modal support."

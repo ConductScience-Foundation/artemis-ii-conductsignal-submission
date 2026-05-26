@@ -1,0 +1,93 @@
+subject_id,variable,peak_phase,peak_effect,last_observed_effect,recovery_status,slope_estimate,provenance
+MMASH_001,cortisol_norm,recovery,0.0438,0.0438,returned_to_baseline,0.0438,user_1/saliva.csv:wake up
+MMASH_001,lying_ratio,recovery,1.3800,-0.5220,returned_to_baseline,-0.1420,user_1/Actigraph.csv:segment:7
+MMASH_001,mean_hr,recovery,-1.1596,0.0370,returned_to_baseline,1.1966,user_1/Actigraph.csv:segment:8
+MMASH_001,melatonin_norm,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_1/saliva.csv:before sleep
+MMASH_001,sleep_efficiency,recovery,4.7500,4.7500,recovering,4.7500,user_1/sleep.csv:row:2
+MMASH_001,sleep_minutes,recovery,52.0000,52.0000,recovering,52.0000,user_1/sleep.csv:row:2
+MMASH_001,steps_per_minute,recovery,-3.9693,1.3012,recovering,5.2705,user_1/Actigraph.csv:segment:8
+MMASH_001,vector_magnitude,recovery,-3.9609,0.9188,returned_to_baseline,4.8797,user_1/Actigraph.csv:segment:8
+MMASH_001,waso,recovery,-4.0000,-4.0000,recovering,-4.0000,user_1/sleep.csv:row:2
+MMASH_002,cortisol_norm,recovery,0.2401,0.2401,returned_to_baseline,0.2401,user_2/saliva.csv:wake up
+MMASH_002,lying_ratio,recovery,3.9060,3.9060,recovering,4.8580,user_2/Actigraph.csv:segment:9
+MMASH_002,mean_hr,recovery,-1.3102,0.1158,returned_to_baseline,0.9561,user_2/Actigraph.csv:segment:7
+MMASH_002,melatonin_norm,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_2/saliva.csv:before sleep
+MMASH_002,sleep_efficiency,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_2/sleep.csv:row:1
+MMASH_002,sleep_minutes,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_2/sleep.csv:row:1
+MMASH_002,steps_per_minute,transit,4.7853,1.0888,recovering,3.9279,user_2/Actigraph.csv:segment:4
+MMASH_002,vector_magnitude,recovery,-3.1992,-0.2511,returned_to_baseline,2.2258,user_2/Actigraph.csv:segment:7
+MMASH_002,waso,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_2/sleep.csv:row:1
+MMASH_003,cortisol_norm,recovery,0.0317,0.0317,returned_to_baseline,0.0317,user_3/saliva.csv:wake up
+MMASH_003,lying_ratio,transit,1.5840,1.4540,recovering,1.6420,user_3/Actigraph.csv:segment:6
+MMASH_003,mean_hr,recovery,-1.2211,-0.1184,returned_to_baseline,0.4764,user_3/Actigraph.csv:segment:7
+MMASH_003,melatonin_norm,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_3/saliva.csv:before sleep
+MMASH_003,sleep_efficiency,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_3/sleep.csv:row:1
+MMASH_003,sleep_minutes,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_3/sleep.csv:row:1
+MMASH_003,steps_per_minute,transit,9.1383,-0.4377,returned_to_baseline,-0.2897,user_3/Actigraph.csv:segment:4
+MMASH_003,vector_magnitude,recovery,-3.8130,-1.3963,recovering,-0.1604,user_3/Actigraph.csv:segment:7
+MMASH_003,waso,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_3/sleep.csv:row:1
+MMASH_004,cortisol_norm,recovery,0.0179,0.0179,returned_to_baseline,0.0179,user_4/saliva.csv:wake up
+MMASH_004,lying_ratio,recovery,3.9380,0.3220,returned_to_baseline,-3.6160,user_4/Actigraph.csv:segment:8
+MMASH_004,mean_hr,recovery,-1.1606,-0.3506,returned_to_baseline,0.8100,user_4/Actigraph.csv:segment:8
+MMASH_004,melatonin_norm,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_4/saliva.csv:before sleep
+MMASH_004,sleep_efficiency,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_4/sleep.csv:row:1
+MMASH_004,sleep_minutes,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_4/sleep.csv:row:1
+MMASH_004,steps_per_minute,recovery,-3.8780,-0.2423,returned_to_baseline,3.6356,user_4/Actigraph.csv:segment:8
+MMASH_004,vector_magnitude,recovery,-3.8581,-0.1252,returned_to_baseline,3.7329,user_4/Actigraph.csv:segment:8
+MMASH_004,waso,pre,0.0000,0.0000,returned_to_baseline,0.0000,user_4/sleep.csv:row:1
+NHANES_REF_001,albumin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSAL
+NHANES_REF_001,alt,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSATSI
+NHANES_REF_001,ast,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSASSI
+NHANES_REF_001,bmi,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:BMXBMI
+NHANES_REF_001,creatinine,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSCR
+NHANES_REF_001,diastolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:diastolic_bp_mean
+NHANES_REF_001,glucose,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSGL
+NHANES_REF_001,hematocrit,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXHCT
+NHANES_REF_001,hemoglobin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXHGB
+NHANES_REF_001,platelets,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXPLTSI
+NHANES_REF_001,rbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXRBCSI
+NHANES_REF_001,systolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:systolic_bp_mean
+NHANES_REF_001,total_protein,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXSTP
+NHANES_REF_001,wbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93766:LBXWBCSI
+NHANES_REF_002,albumin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSAL
+NHANES_REF_002,alt,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSATSI
+NHANES_REF_002,ast,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSASSI
+NHANES_REF_002,bmi,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:BMXBMI
+NHANES_REF_002,creatinine,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSCR
+NHANES_REF_002,diastolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:diastolic_bp_mean
+NHANES_REF_002,glucose,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSGL
+NHANES_REF_002,hematocrit,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXHCT
+NHANES_REF_002,hemoglobin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXHGB
+NHANES_REF_002,platelets,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXPLTSI
+NHANES_REF_002,rbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXRBCSI
+NHANES_REF_002,systolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:systolic_bp_mean
+NHANES_REF_002,total_protein,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXSTP
+NHANES_REF_002,wbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93776:LBXWBCSI
+NHANES_REF_003,albumin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSAL
+NHANES_REF_003,alt,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSATSI
+NHANES_REF_003,ast,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSASSI
+NHANES_REF_003,bmi,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:BMXBMI
+NHANES_REF_003,creatinine,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSCR
+NHANES_REF_003,diastolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:diastolic_bp_mean
+NHANES_REF_003,glucose,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSGL
+NHANES_REF_003,hematocrit,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXHCT
+NHANES_REF_003,hemoglobin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXHGB
+NHANES_REF_003,platelets,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXPLTSI
+NHANES_REF_003,rbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXRBCSI
+NHANES_REF_003,systolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:systolic_bp_mean
+NHANES_REF_003,total_protein,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXSTP
+NHANES_REF_003,wbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93789:LBXWBCSI
+NHANES_REF_004,albumin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSAL
+NHANES_REF_004,alt,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSATSI
+NHANES_REF_004,ast,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSASSI
+NHANES_REF_004,bmi,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:BMXBMI
+NHANES_REF_004,creatinine,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSCR
+NHANES_REF_004,diastolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:diastolic_bp_mean
+NHANES_REF_004,glucose,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSGL
+NHANES_REF_004,hematocrit,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXHCT
+NHANES_REF_004,hemoglobin,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXHGB
+NHANES_REF_004,platelets,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXPLTSI
+NHANES_REF_004,rbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXRBCSI
+NHANES_REF_004,systolic_bp,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:systolic_bp_mean
+NHANES_REF_004,total_protein,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXSTP
+NHANES_REF_004,wbc,pre,0.0000,0.0000,returned_to_baseline,0.0000,NHANES:SEQN:93813:LBXWBCSI

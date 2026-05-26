@@ -1,0 +1,46 @@
+# Data files (too large for git — download via scripts)
+data/raw/
+data/cache/
+data/proxy/nhanes/*.xpt
+data/proxy/nhanes/*.parquet
+data/proxy/physionet/*.csv
+data/proxy/physionet/*.edf
+data/proxy/physionet/*.txt
+data/proxy/physionet/*.zip
+data/proxy/physionet/mmash/
+data/proxy/inspiration4/*.csv
+data/proxy/inspiration4/*.json
+data/proxy/inspiration4/*.zip
+data/proxy/inspiration4/*.xlsx
+data/proxy/nhanes/*.XPT
+data/proxy/nhanes/*.xpt
+data/proxy/nhanes/*.parquet
+data/proxy/utmb_bedrest/*.csv
+data/proxy/immport/*.csv
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+venv/
+.venv/

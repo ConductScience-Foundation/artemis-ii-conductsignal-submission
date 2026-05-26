@@ -1,0 +1,93 @@
+subject_id,variable,modality,baseline_n,baseline_center,baseline_spread,baseline_stability,provenance
+MMASH_001,cortisol_norm,standard_measures,1,0.0341,1.0000,limited,user_1/saliva.csv:before sleep
+MMASH_001,lying_ratio,behavioral,3,0.1329,0.0500,unstable,user_1/Actigraph.csv:segment:1; user_1/Actigraph.csv:segment:2; user_1/Actigraph.csv:segment:3
+MMASH_001,mean_hr,standard_measures,3,92.0000,23.0000,limited,user_1/Actigraph.csv:segment:1; user_1/Actigraph.csv:segment:2; user_1/Actigraph.csv:segment:3
+MMASH_001,melatonin_norm,behavioral,1,0.0000,1.0000,limited,user_1/saliva.csv:before sleep
+MMASH_001,sleep_efficiency,behavioral,1,87.2700,1.0000,limited,user_1/sleep.csv:row:1
+MMASH_001,sleep_minutes,behavioral,1,144.0000,1.0000,limited,user_1/sleep.csv:row:1
+MMASH_001,steps_per_minute,behavioral,3,14.5130,3.6282,limited,user_1/Actigraph.csv:segment:1; user_1/Actigraph.csv:segment:2; user_1/Actigraph.csv:segment:3
+MMASH_001,vector_magnitude,behavioral,3,53.4270,13.3567,limited,user_1/Actigraph.csv:segment:1; user_1/Actigraph.csv:segment:2; user_1/Actigraph.csv:segment:3
+MMASH_001,waso,behavioral,1,21.0000,1.0000,limited,user_1/sleep.csv:row:1
+MMASH_002,cortisol_norm,standard_measures,1,0.0212,1.0000,limited,user_2/saliva.csv:before sleep
+MMASH_002,lying_ratio,behavioral,3,0.1686,0.0500,limited,user_2/Actigraph.csv:segment:1; user_2/Actigraph.csv:segment:2; user_2/Actigraph.csv:segment:3
+MMASH_002,mean_hr,standard_measures,3,77.7950,19.4488,limited,user_2/Actigraph.csv:segment:1; user_2/Actigraph.csv:segment:2; user_2/Actigraph.csv:segment:3
+MMASH_002,melatonin_norm,behavioral,1,0.0000,1.0000,limited,user_2/saliva.csv:before sleep
+MMASH_002,sleep_efficiency,behavioral,1,73.4900,1.0000,limited,user_2/sleep.csv:row:1
+MMASH_002,sleep_minutes,behavioral,1,244.0000,1.0000,limited,user_2/sleep.csv:row:1
+MMASH_002,steps_per_minute,behavioral,3,12.8110,3.2027,limited,user_2/Actigraph.csv:segment:1; user_2/Actigraph.csv:segment:2; user_2/Actigraph.csv:segment:3
+MMASH_002,vector_magnitude,behavioral,3,43.5790,10.8948,limited,user_2/Actigraph.csv:segment:1; user_2/Actigraph.csv:segment:2; user_2/Actigraph.csv:segment:3
+MMASH_002,waso,behavioral,1,84.0000,1.0000,limited,user_2/sleep.csv:row:1
+MMASH_003,cortisol_norm,standard_measures,1,0.0121,1.0000,limited,user_3/saliva.csv:before sleep
+MMASH_003,lying_ratio,behavioral,3,0.0900,0.0500,unstable,user_3/Actigraph.csv:segment:1; user_3/Actigraph.csv:segment:2; user_3/Actigraph.csv:segment:3
+MMASH_003,mean_hr,standard_measures,3,81.7030,20.4258,limited,user_3/Actigraph.csv:segment:1; user_3/Actigraph.csv:segment:2; user_3/Actigraph.csv:segment:3
+MMASH_003,melatonin_norm,behavioral,1,0.0000,1.0000,limited,user_3/saliva.csv:before sleep
+MMASH_003,sleep_efficiency,behavioral,1,79.2300,1.0000,limited,user_3/sleep.csv:row:1
+MMASH_003,sleep_minutes,behavioral,1,351.0000,1.0000,limited,user_3/sleep.csv:row:1
+MMASH_003,steps_per_minute,behavioral,3,14.0000,3.5000,limited,user_3/Actigraph.csv:segment:1; user_3/Actigraph.csv:segment:2; user_3/Actigraph.csv:segment:3
+MMASH_003,vector_magnitude,behavioral,3,45.2390,11.3097,limited,user_3/Actigraph.csv:segment:1; user_3/Actigraph.csv:segment:2; user_3/Actigraph.csv:segment:3
+MMASH_003,waso,behavioral,1,89.0000,1.0000,limited,user_3/sleep.csv:row:1
+MMASH_004,cortisol_norm,standard_measures,1,0.0238,1.0000,limited,user_4/saliva.csv:before sleep
+MMASH_004,lying_ratio,behavioral,3,0.0852,0.0500,unstable,user_4/Actigraph.csv:segment:1; user_4/Actigraph.csv:segment:2; user_4/Actigraph.csv:segment:3
+MMASH_004,mean_hr,standard_measures,3,79.6160,19.9040,limited,user_4/Actigraph.csv:segment:1; user_4/Actigraph.csv:segment:2; user_4/Actigraph.csv:segment:3
+MMASH_004,melatonin_norm,behavioral,1,0.0000,1.0000,limited,user_4/saliva.csv:before sleep
+MMASH_004,sleep_efficiency,behavioral,1,85.5200,1.0000,limited,user_4/sleep.csv:row:1
+MMASH_004,sleep_minutes,behavioral,1,319.0000,1.0000,limited,user_4/sleep.csv:row:1
+MMASH_004,steps_per_minute,behavioral,3,14.4770,3.6193,limited,user_4/Actigraph.csv:segment:1; user_4/Actigraph.csv:segment:2; user_4/Actigraph.csv:segment:3
+MMASH_004,vector_magnitude,behavioral,3,48.3950,12.0988,limited,user_4/Actigraph.csv:segment:1; user_4/Actigraph.csv:segment:2; user_4/Actigraph.csv:segment:3
+MMASH_004,waso,behavioral,1,50.0000,1.0000,limited,user_4/sleep.csv:row:1
+NHANES_REF_001,albumin,standard_measures,1,3.7000,1.0000,limited,NHANES:SEQN:93766:LBXSAL
+NHANES_REF_001,alt,standard_measures,1,10.0000,1.0000,limited,NHANES:SEQN:93766:LBXSATSI
+NHANES_REF_001,ast,standard_measures,1,12.0000,1.0000,limited,NHANES:SEQN:93766:LBXSASSI
+NHANES_REF_001,bmi,standard_measures,1,27.1000,1.0000,limited,NHANES:SEQN:93766:BMXBMI
+NHANES_REF_001,creatinine,standard_measures,1,0.6600,1.0000,limited,NHANES:SEQN:93766:LBXSCR
+NHANES_REF_001,diastolic_bp,standard_measures,1,106.6700,1.0000,limited,NHANES:SEQN:93766:diastolic_bp_mean
+NHANES_REF_001,glucose,standard_measures,1,80.0000,1.0000,limited,NHANES:SEQN:93766:LBXSGL
+NHANES_REF_001,hematocrit,standard_measures,1,38.9000,1.0000,limited,NHANES:SEQN:93766:LBXHCT
+NHANES_REF_001,hemoglobin,standard_measures,1,12.8000,1.0000,limited,NHANES:SEQN:93766:LBXHGB
+NHANES_REF_001,platelets,immune,1,235.0000,1.0000,limited,NHANES:SEQN:93766:LBXPLTSI
+NHANES_REF_001,rbc,standard_measures,1,4.4400,1.0000,limited,NHANES:SEQN:93766:LBXRBCSI
+NHANES_REF_001,systolic_bp,standard_measures,1,150.0000,1.0000,limited,NHANES:SEQN:93766:systolic_bp_mean
+NHANES_REF_001,total_protein,standard_measures,1,6.6000,1.0000,limited,NHANES:SEQN:93766:LBXSTP
+NHANES_REF_001,wbc,immune,1,5.4000,1.0000,limited,NHANES:SEQN:93766:LBXWBCSI
+NHANES_REF_002,albumin,standard_measures,1,4.1000,1.0000,limited,NHANES:SEQN:93776:LBXSAL
+NHANES_REF_002,alt,standard_measures,1,20.0000,1.0000,limited,NHANES:SEQN:93776:LBXSATSI
+NHANES_REF_002,ast,standard_measures,1,20.0000,1.0000,limited,NHANES:SEQN:93776:LBXSASSI
+NHANES_REF_002,bmi,standard_measures,1,22.2000,1.0000,limited,NHANES:SEQN:93776:BMXBMI
+NHANES_REF_002,creatinine,standard_measures,1,0.8100,1.0000,limited,NHANES:SEQN:93776:LBXSCR
+NHANES_REF_002,diastolic_bp,standard_measures,1,76.6670,1.0000,limited,NHANES:SEQN:93776:diastolic_bp_mean
+NHANES_REF_002,glucose,standard_measures,1,91.0000,1.0000,limited,NHANES:SEQN:93776:LBXSGL
+NHANES_REF_002,hematocrit,standard_measures,1,42.7000,1.0000,limited,NHANES:SEQN:93776:LBXHCT
+NHANES_REF_002,hemoglobin,standard_measures,1,14.5000,1.0000,limited,NHANES:SEQN:93776:LBXHGB
+NHANES_REF_002,platelets,immune,1,254.0000,1.0000,limited,NHANES:SEQN:93776:LBXPLTSI
+NHANES_REF_002,rbc,standard_measures,1,4.7800,1.0000,limited,NHANES:SEQN:93776:LBXRBCSI
+NHANES_REF_002,systolic_bp,standard_measures,1,120.0000,1.0000,limited,NHANES:SEQN:93776:systolic_bp_mean
+NHANES_REF_002,total_protein,standard_measures,1,7.2000,1.0000,limited,NHANES:SEQN:93776:LBXSTP
+NHANES_REF_002,wbc,immune,1,6.7000,1.0000,limited,NHANES:SEQN:93776:LBXWBCSI
+NHANES_REF_003,albumin,standard_measures,1,4.1000,1.0000,limited,NHANES:SEQN:93789:LBXSAL
+NHANES_REF_003,alt,standard_measures,1,15.0000,1.0000,limited,NHANES:SEQN:93789:LBXSATSI
+NHANES_REF_003,ast,standard_measures,1,21.0000,1.0000,limited,NHANES:SEQN:93789:LBXSASSI
+NHANES_REF_003,bmi,standard_measures,1,23.6000,1.0000,limited,NHANES:SEQN:93789:BMXBMI
+NHANES_REF_003,creatinine,standard_measures,1,1.0100,1.0000,limited,NHANES:SEQN:93789:LBXSCR
+NHANES_REF_003,diastolic_bp,standard_measures,1,58.6670,1.0000,limited,NHANES:SEQN:93789:diastolic_bp_mean
+NHANES_REF_003,glucose,standard_measures,1,84.0000,1.0000,limited,NHANES:SEQN:93789:LBXSGL
+NHANES_REF_003,hematocrit,standard_measures,1,43.3000,1.0000,limited,NHANES:SEQN:93789:LBXHCT
+NHANES_REF_003,hemoglobin,standard_measures,1,14.6000,1.0000,limited,NHANES:SEQN:93789:LBXHGB
+NHANES_REF_003,platelets,immune,1,219.0000,1.0000,limited,NHANES:SEQN:93789:LBXPLTSI
+NHANES_REF_003,rbc,standard_measures,1,4.5600,1.0000,limited,NHANES:SEQN:93789:LBXRBCSI
+NHANES_REF_003,systolic_bp,standard_measures,1,104.6700,1.0000,limited,NHANES:SEQN:93789:systolic_bp_mean
+NHANES_REF_003,total_protein,standard_measures,1,7.2000,1.0000,limited,NHANES:SEQN:93789:LBXSTP
+NHANES_REF_003,wbc,immune,1,6.3000,1.0000,limited,NHANES:SEQN:93789:LBXWBCSI
+NHANES_REF_004,albumin,standard_measures,1,3.6000,1.0000,limited,NHANES:SEQN:93813:LBXSAL
+NHANES_REF_004,alt,standard_measures,1,10.0000,1.0000,limited,NHANES:SEQN:93813:LBXSATSI
+NHANES_REF_004,ast,standard_measures,1,13.0000,1.0000,limited,NHANES:SEQN:93813:LBXSASSI
+NHANES_REF_004,bmi,standard_measures,1,43.2000,1.0000,limited,NHANES:SEQN:93813:BMXBMI
+NHANES_REF_004,creatinine,standard_measures,1,0.6100,1.0000,limited,NHANES:SEQN:93813:LBXSCR
+NHANES_REF_004,diastolic_bp,standard_measures,1,93.3330,1.0000,limited,NHANES:SEQN:93813:diastolic_bp_mean
+NHANES_REF_004,glucose,standard_measures,1,96.0000,1.0000,limited,NHANES:SEQN:93813:LBXSGL
+NHANES_REF_004,hematocrit,standard_measures,1,39.8000,1.0000,limited,NHANES:SEQN:93813:LBXHCT
+NHANES_REF_004,hemoglobin,standard_measures,1,13.3000,1.0000,limited,NHANES:SEQN:93813:LBXHGB
+NHANES_REF_004,platelets,immune,1,329.0000,1.0000,limited,NHANES:SEQN:93813:LBXPLTSI
+NHANES_REF_004,rbc,standard_measures,1,4.5000,1.0000,limited,NHANES:SEQN:93813:LBXRBCSI
+NHANES_REF_004,systolic_bp,standard_measures,1,137.3300,1.0000,limited,NHANES:SEQN:93813:systolic_bp_mean
+NHANES_REF_004,total_protein,standard_measures,1,6.9000,1.0000,limited,NHANES:SEQN:93813:LBXSTP
+NHANES_REF_004,wbc,immune,1,6.1000,1.0000,limited,NHANES:SEQN:93813:LBXWBCSI

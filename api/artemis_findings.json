@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "datasets": [
+      "NHANES 2017-2018",
+      "PhysioNet MMASH",
+      "public Inspiration4/SOMA supplementary inventory"
+    ],
+    "generated": "2026-05-26T22:34:09+00:00",
+    "prominence_weights": {
+      "effect_size": 0.4,
+      "change_point": 0.3,
+      "cross_modal": 0.2,
+      "persistence": 0.1
+    }
+  },
+  "astronauts": [
+    "MMASH_001",
+    "MMASH_002",
+    "MMASH_003",
+    "MMASH_004"
+  ],
+  "phases": [
+    "pre",
+    "transit",
+    "recovery"
+  ],
+  "findings": [
+    {
+      "id": "real_001",
+      "claim": "MMASH_001 showed its largest public MMASH-derived transit-window change in vector_magnitude, with cross-modal support.",
+      "zone": "cross_modal",
+      "studies": [
+        "behavioral",
+        "standard_measures"
+      ],
+      "astronaut": "MMASH_001",
+      "phase": "transit",
+      "prominence_score": 0.602,
+      "evidence": {
+        "effects": [
+          {
+            "variable": "vector_magnitude",
+            "d": -0.655,
+            "ci": [
+              -1.405,
+              0.095
+            ],
+            "study": "behavioral"
+          },
+          {
+            "variable": "mean_hr",
+            "d": -0.194,
+            "ci": [
+              -0.944,
+              0.556
+            ],
+            "study": "standard_measures"
+          }
+        ],
+        "change_points": [
+          {
+            "day": 4,
+            "confidence": 0.396,
+            "variables": [
+              "vector_magnitude"
+            ]
+          }
+        ],
+        "cross_modal_links": [
+          {
+            "from": "vector_magnitude",
+            "to": "mean_hr",
+            "correlation": 0.0
+          }
+        ]
+      },
+      "trace": {
+        "timeseries": {
+          "vector_magnitude": [
+            [
+              1,
+              50.923
+            ],
+            [
+              2,
+              69.864
+            ],
+            [
+              3,
+              53.427
+            ],
+            [
+              4,
+              54.249
+            ],
+            [
+              5,
+              58.783
+            ],
+            [
+              6,
+              20.983
+            ],
+            [
+              7,
+              5.3575
+            ],
+            [
+              8,
+              0.5227
+            ],
+            [
+              9,
+              65.699
+            ]
+          ],
+          "mean_hr": [
+            [
+              1,
+              83.042
+            ],
+            [
+              2,
+              94.71
+            ],
+            [
+              3,
+              92.0
+            ],
+            [
+              4,
+              86.645
+            ],
+            [
+              5,
+              96.796
+            ],
+            [
+              6,
+              79.154
+            ],
+            [
+              7,
+              71.945
+            ],
+            [
+              8,
+              65.33
+            ],
+            [
+              9,
+              92.851
+            ]
+          ]
+        },
+        "missing": {}
+      }
+    },
+    {
+      "id": "real_002",
+      "claim": "MMASH_002 showed its largest public MMASH-derived transit-window change in lying_ratio, with cross-modal support.",
+      "zone": "cross_modal",
+      "studies": [
+        "behavioral",
+        "standard_measures"
+      ],
+      "astronaut": "MMASH_002",
+      "phase": "transit",
+      "prominence_score": 0.685,
+      "evidence": {
+        "effects": [
+          {
+            "variable": "lying_ratio",
+            "d": -1.318,
+            "ci": [
+              -2.068,
+              -0.568
+            ],
+            "study": "behavioral"
+          },
+          {
+            "variable": "mean_hr",
+            "d": 0.163,
+            "ci": [
+              -0.587,
+              0.913
+            ],
+            "study": "standard_measures"
+          }
+        ],
+        "change_points": [
+          {
+            "day": 4,
+            "confidence": 0.569,
+            "variables": [
+              "lying_ratio"
+            ]
+          }
+        ],
+        "cross_modal_links": [
+          {
+            "from": "lying_ratio",
+            "to": "mean_hr",
+            "correlation": 0.0
+          }
+        ]
+      },
+      "trace": {
+        "timeseries": {
+          "lying_ratio": [
+            [
+              1,
+              0.1686
+            ],
+            [
+              2,
+              0.104
+            ],
+            [
+              3,
+              0.1777
+            ],
+            [
+              4,
+              0.121
+            ],
+            [
+              5,
+              0.1013
+            ],
+            [
+              6,
+              0.0858
+            ],
+            [
+              7,
+              0.0469
+            ],
+            [
+              8,
+              0.121
+            ],
+            [
+              9,
+              0.3639
+            ]
+          ],
+          "mean_hr": [
+            [
+              1,
+              77.795
+            ],
+            [
+              2,
+              77.558
+            ],
+            [
+              3,
+              78.703
+            ],
+            [
+              4,
+              91.787
+            ],
+            [
+              5,
+              80.729
+            ],
+            [
+              6,
+              70.399
+            ],
+            [
+              7,
+              52.313
+            ],
+            [
+              8,
+              61.454
+            ],
+            [
+              9,
+              80.048
+            ]
+          ]
+        },
+        "missing": {}
+      }
+    },
+    {
+      "id": "real_003",
+      "claim": "MMASH_003 showed its largest public MMASH-derived transit-window change in steps_per_minute, with cross-modal support.",
+      "zone": "cross_modal",
+      "studies": [
+        "behavioral",
+        "standard_measures"
+      ],
+      "astronaut": "MMASH_003",
+      "phase": "transit",
+      "prominence_score": 0.888,
+      "evidence": {
+        "effects": [
+          {
+            "variable": "steps_per_minute",
+            "d": 2.944,
+            "ci": [
+              2.194,
+              3.694
+            ],
+            "study": "behavioral"
+          },
+          {
+            "variable": "mean_hr",
+            "d": 0.054,
+            "ci": [
+              -0.696,
+              0.804
+            ],
+            "study": "standard_measures"
+          }
+        ],
+        "change_points": [
+          {
+            "day": 4,
+            "confidence": 0.746,
+            "variables": [
+              "steps_per_minute"
+            ]
+          }
+        ],
+        "cross_modal_links": [
+          {
+            "from": "steps_per_minute",
+            "to": "mean_hr",
+            "correlation": 0.0
+          }
+        ]
+      },
+      "trace": {
+        "timeseries": {
+          "steps_per_minute": [
+            [
+              1,
+              15.185
+            ],
+            [
+              2,
+              14.0
+            ],
+            [
+              3,
+              13.498
+            ],
+            [
+              4,
+              45.984
+            ],
+            [
+              5,
+              22.303
+            ],
+            [
+              6,
+              4.6215
+            ],
+            [
+              7,
+              0.4622
+            ],
+            [
+              8,
+              13.482
+            ],
+            [
+              9,
+              12.468
+            ]
+          ],
+          "mean_hr": [
+            [
+              1,
+              81.703
+            ],
+            [
+              2,
+              78.051
+            ],
+            [
+              3,
+              84.064
+            ],
+            [
+              4,
+              91.729
+            ],
+            [
+              5,
+              93.624
+            ],
+            [
+              6,
+              63.07
+            ],
+            [
+              7,
+              56.761
+            ],
+            [
+              8,
+              69.555
+            ],
+            [
+              9,
+              79.285
+            ]
+          ]
+        },
+        "missing": {}
+      }
+    },
+    {
+      "id": "real_004",
+      "claim": "MMASH_004 showed its largest public MMASH-derived transit-window change in lying_ratio, with cross-modal support.",
+      "zone": "cross_modal",
+      "studies": [
+        "behavioral",
+        "standard_measures"
+      ],
+      "astronaut": "MMASH_004",
+      "phase": "transit",
+      "prominence_score": 0.72,
+      "evidence": {
+        "effects": [
+          {
+            "variable": "lying_ratio",
+            "d": 1.602,
+            "ci": [
+              0.852,
+              2.352
+            ],
+            "study": "behavioral"
+          },
+          {
+            "variable": "mean_hr",
+            "d": -0.347,
+            "ci": [
+              -1.097,
+              0.403
+            ],
+            "study": "standard_measures"
+          }
+        ],
+        "change_points": [
+          {
+            "day": 4,
+            "confidence": 0.616,
+            "variables": [
+              "lying_ratio"
+            ]
+          }
+        ],
+        "cross_modal_links": [
+          {
+            "from": "lying_ratio",
+            "to": "mean_hr",
+            "correlation": 0.0
+          }
+        ]
+      },
+      "trace": {
+        "timeseries": {
+          "lying_ratio": [
+            [
+              1,
+              0.0849
+            ],
+            [
+              2,
+              0.0852
+            ],
+            [
+              3,
+              0.1183
+            ],
+            [
+              4,
+              0.0967
+            ],
+            [
+              5,
+              0.1771
+            ],
+            [
+              6,
+              0.2221
+            ],
+            [
+              7,
+              0.0153
+            ],
+            [
+              8,
+              0.2821
+            ],
+            [
+              9,
+              0.1013
+            ]
+          ],
+          "mean_hr": [
+            [
+              1,
+              80.44
+            ],
+            [
+              2,
+              74.648
+            ],
+            [
+              3,
+              79.616
+            ],
+            [
+              4,
+              79.567
+            ],
+            [
+              5,
+              73.013
+            ],
+            [
+              6,
+              65.526
+            ],
+            [
+              7,
+              65.297
+            ],
+            [
+              8,
+              56.516
+            ],
+            [
+              9,
+              72.638
+            ]
+          ]
+        },
+        "missing": {}
+      }
+    }
+  ]
+}

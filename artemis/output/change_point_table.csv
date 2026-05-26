@@ -1,0 +1,12 @@
+subject_id,variable,phase,change_time_point,confidence,segment_before,segment_after,method,provenance
+MMASH_001,steps_per_minute,transit,6,0.733,16.4714,6.4856,standard-library two-window mean-shift heuristic,user_1/Actigraph.csv:segment:6
+MMASH_001,vector_magnitude,transit,6,0.720,57.4492,23.1406,standard-library two-window mean-shift heuristic,user_1/Actigraph.csv:segment:6
+MMASH_002,lying_ratio,recovery,8,0.718,0.1150,0.2424,standard-library two-window mean-shift heuristic,user_2/Actigraph.csv:segment:8
+MMASH_002,steps_per_minute,transit,6,0.742,16.3346,7.1200,standard-library two-window mean-shift heuristic,user_2/Actigraph.csv:segment:6
+MMASH_002,vector_magnitude,transit,6,0.699,48.4394,23.1748,standard-library two-window mean-shift heuristic,user_2/Actigraph.csv:segment:6
+MMASH_003,lying_ratio,transit,6,0.542,0.0793,0.1384,standard-library two-window mean-shift heuristic,user_3/Actigraph.csv:segment:6
+MMASH_003,steps_per_minute,transit,6,0.805,22.1940,7.7584,standard-library two-window mean-shift heuristic,user_3/Actigraph.csv:segment:6
+MMASH_003,vector_magnitude,transit,6,0.763,56.3748,19.8970,standard-library two-window mean-shift heuristic,user_3/Actigraph.csv:segment:6
+MMASH_004,lying_ratio,recovery,8,0.608,0.1142,0.1917,standard-library two-window mean-shift heuristic,user_4/Actigraph.csv:segment:8
+MMASH_004,steps_per_minute,transit,5,0.723,16.3160,6.8785,standard-library two-window mean-shift heuristic,user_4/Actigraph.csv:segment:5
+MMASH_004,vector_magnitude,transit,6,0.700,50.2164,21.9465,standard-library two-window mean-shift heuristic,user_4/Actigraph.csv:segment:6

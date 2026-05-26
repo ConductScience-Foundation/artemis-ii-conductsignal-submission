@@ -1,0 +1,39 @@
+{
+  "algorithm_settings": {
+    "baseline_center": "median",
+    "baseline_spread": "MAD scaled by 1.4826, fallback span/2 or 1.0",
+    "change_point": "two-window mean-shift heuristic, minimum 5 usable observations, effect threshold 1.0",
+    "concordance": "same-subject same-phase strong effects across at least two modalities",
+    "phase": "real_public_proxy_demo",
+    "reference_anchor": "empirical percentile from curated reference slices"
+  },
+  "guardrail": "Derived public proxy data demonstrate method mechanics for Artemis II-style analysis. Controlled-access and private astronaut data remain outside this public packet.",
+  "input_files": {
+    "api/artemis_findings.json": "64b57d4933428b9c33487001c934eb068a31e2ad6b36a8ec65ab8e82a5d9c0ee",
+    "artemis/data/proxy_observations.csv": "021431821916fa747d162049908742af1bf218537b1ed5e28fb3ca09ab7c616f",
+    "artemis/data/reference_slices.csv": "0b9c3a536839b558bf10f2afc0621319a5c146edb1b40fe64ddc4fa6a36c8e86",
+    "artemis/data/source_manifest.json": "a388d28640ccded72e2991e596fc0a8ccd129fb39dd252b33d44fbd5f5682e71"
+  },
+  "output_hashes": {
+    "artemis/output/baseline_table.csv": "136886b7453cc57e50941248790b2fe5d8572b2d4c2c130b7e5abc339c45cabe",
+    "artemis/output/change_point_table.csv": "cdca7bfc3fe0ce0e57d348fd7c5a5c6518caf25b13ba7d4b82e2a262f6347a36",
+    "artemis/output/concordance_table.csv": "a07e134815b8cda7ba74468cb33409f97e2f6fab16f8cb1fc073b50770270b70",
+    "artemis/output/crew_state_summary.csv": "8d6da49b39d7079578d0e29a2eeee9badff732be110d9c04b05768cd924fdbae",
+    "artemis/output/crew_state_summary.svg": "499959b6e8a38118befc13c046b86bd56dd0af15c77cbda4b7b69e1ffde42306",
+    "artemis/output/finding_atlas.csv": "e855894e74a0707e50f77aaaaa6ae910203171130594724f2ed7e2ba9a929af5",
+    "artemis/output/missingness_report.csv": "4940e67d92a917ab23eb83fef6c989673a1b1b5a0a87f68ed5ac1d9f18f547af",
+    "artemis/output/recovery_table.csv": "8e561780bb02e605a8157af8d8b211ecaf0f05a51adcd8b4ac7d5737cb13f892",
+    "artemis/output/reference_anchor_table.csv": "371f07c44728900a6a1e2871ff37ffdc435fa9bf386b30bc38a7548cfd092217",
+    "artemis/output/submission_summary.md": "bbaaa685573f26b03041a5e63d8c1ff41c9485ef6115b91a8b9e3e392719acce",
+    "artemis/output/top_findings.svg": "207540c52329398ce432ce8eba2e5c9628cbd0c6210eb3add50daa9fa0181b9c",
+    "artemis/output/trace_long.csv": "ff9766f81486abe0062b213def721bed9f1f267523b1f026de119768fea49324",
+    "artemis/output/within_subject_change_table.csv": "d9c06fb8e47aa4f78a703ac9d2df890ef99c582a8fef2d6e8a28f849509c4152"
+  },
+  "run_timestamp_utc": "2026-05-26T22:53:18+00:00",
+  "script_version": "0.4.1",
+  "source_urls": {
+    "Inspiration4/SOMA public supplementary sources": "https://www.nature.com/articles/s41586-024-07639-y",
+    "NHANES 2017-2018": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",
+    "PhysioNet MMASH": "https://physionet.org/content/mmash/1.0.0/"
+  }
+}
