@@ -1,6 +1,14 @@
 # Public Repository Boundary
 
-This repository is the public Foundation mirror for ConductSignal Artemis II demo code and derived public-proxy data.
+This repository is the public Foundation repository for ConductSignal Artemis II demo code and derived public-proxy data.
+
+Public repository:
+
+https://github.com/ConductScience-Foundation/artemis-ii-conductsignal-submission
+
+Public review page:
+
+https://conductsignal.com/artemis
 
 ## Public Repository Includes
 
@@ -12,23 +20,10 @@ This repository is the public Foundation mirror for ConductSignal Artemis II dem
 
 ## Public Repository Excludes
 
-- Generated portal upload packets.
-- Submission PDFs and text-field files.
-- Internal packet QA records.
+- Generated submission PDFs and upload bundles.
+- Private QA records.
 - Private eligibility records.
 - Raw source-data caches.
 - Controlled-access astronaut or clinical data.
 
-## Internal Archive Location
-
-Generated submission packets belong in the internal `challenges-and-bids` repository:
-
-```text
-past-submissions/artemis-ii-conductsignal/
-```
-
-Current archived packet:
-
-```text
-past-submissions/artemis-ii-conductsignal/v0.2.2/
-```
+The repository is intended to be safe for public review and reuse. It carries only code, public-source provenance, derived public proxy data, and reproducible public demo outputs.

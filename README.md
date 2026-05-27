@@ -1,8 +1,16 @@
 # ConductSignal Artemis II Public Demo
 
-Public code and derived public-proxy data for the ConductSignal Artemis II methodology demonstration.
+Public code, derived public-proxy data, provenance, and reproducible outputs for the ConductSignal Artemis II methodology demonstration.
 
-Version: `0.2.3`
+Version: `0.2.4`
+
+Public repository:
+
+https://github.com/ConductScience-Foundation/artemis-ii-conductsignal-submission
+
+Public review page:
+
+https://conductsignal.com/artemis
 
 ## Repository Boundary
 
@@ -13,17 +21,7 @@ This Foundation repository contains only public, reproducible materials:
 - Public provenance manifests.
 - Generated public demo outputs.
 
-Generated submission packets, portal upload files, packet PDFs, and internal packet QA records are archived in the internal `challenges-and-bids` repository.
-
-Internal archive:
-
-```text
-past-submissions/artemis-ii-conductsignal/v0.2.2/
-```
-
-Internal repository:
-
-https://github.com/ShuhanCS/challenges-and-bids
+It does not contain generated submission PDFs, upload bundles, private QA records, raw source-data caches, controlled-access astronaut data, or private clinical data.
 
 ## Plain-Language Method
 
@@ -44,6 +42,7 @@ Tracked public inputs:
 artemis/data/proxy_observations.csv
 artemis/data/reference_slices.csv
 artemis/data/source_manifest.json
+artemis/data/data_provenance.md
 api/artemis_findings.json
 ```
 
@@ -57,7 +56,7 @@ Raw public source files are intentionally excluded from Git. The source-data bui
 
 ## Run The Demo
 
-The dependency-light demo uses the included derived public-proxy tables and generated findings.
+The core demo uses only the Python standard library. It reads the included derived public-proxy tables and generated findings.
 
 ```powershell
 python artemis\run_demo.py
@@ -69,9 +68,9 @@ Expected outputs are written to:
 artemis/output/
 ```
 
-No third-party Python packages are required for `artemis/run_demo.py`.
-
 ## Rebuild Derived Public Proxy Inputs
+
+The optional source-data rebuild uses public NHANES and MMASH inputs and requires the packages in `requirements.txt`.
 
 ```powershell
 pip install -r requirements.txt
@@ -87,9 +86,3 @@ Current public repository checks:
 - `detect-secrets scan`: public repository secret scan.
 - `bandit -r . --severity-level medium`: medium/high security scan.
 - `pip-audit -r requirements.txt`: dependency vulnerability scan.
-
-## Public Review Page
-
-ConductSignal supporting interface:
-
-https://conductsignal.com/artemis

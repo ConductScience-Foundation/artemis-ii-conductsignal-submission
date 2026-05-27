@@ -18,7 +18,7 @@ Run from the repository root:
 python artemis\run_demo.py
 ```
 
-No third-party Python dependencies are required.
+The core runner uses only the Python standard library. The optional source-data builder in `scripts/` uses the packages listed in the repository root `requirements.txt`.
 
 ## Outputs
 

@@ -49,4 +49,4 @@ Proxy datasets listed: NHANES 2017-2018, PhysioNet MMASH, public Inspiration4/SO
 
 ## Guardrail
 
-Derived public proxy data demonstrate method mechanics for Artemis II-style analysis. Controlled-access and private astronaut data remain outside this public packet.
+Derived public proxy data demonstrate method mechanics for Artemis II-style analysis. Controlled-access and private astronaut data remain outside this public repository.

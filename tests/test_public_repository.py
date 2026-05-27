@@ -8,7 +8,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def tracked_files() -> list[str]:
-    return subprocess.check_output(["git", "ls-files"], cwd=ROOT, text=True).splitlines()
+    try:
+        return subprocess.check_output(["git", "ls-files"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL).splitlines()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        excluded = {".git", ".pytest_cache", "__pycache__"}
+        return [
+            path.relative_to(ROOT).as_posix()
+            for path in ROOT.rglob("*")
+            if path.is_file() and not any(part in excluded for part in path.relative_to(ROOT).parts)
+        ]
 
 
 def test_public_demo_inputs_and_outputs_exist() -> None:

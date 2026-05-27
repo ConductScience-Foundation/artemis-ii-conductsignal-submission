@@ -807,7 +807,7 @@ def main() -> None:
     data = load_findings(FINDINGS_INPUT)
     manifest = load_json(SOURCE_MANIFEST_INPUT)
     if manifest.get("phase") != "real_public_proxy_demo":
-        raise ValueError("source_manifest.json must declare phase='real_public_proxy_demo' for the upgraded submission packet")
+        raise ValueError("source_manifest.json must declare phase='real_public_proxy_demo' for this public demo")
     observations = load_observations(OBSERVATIONS_INPUT)
     references = load_references(REFERENCES_INPUT)
     groups = group_observations(observations)

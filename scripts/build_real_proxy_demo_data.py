@@ -1,4 +1,4 @@
-"""Build real public proxy data for the Artemis II submission demo.
+"""Build real public proxy data for the Artemis II public demo.
 
 The script converts public NHANES, PhysioNet MMASH, and public Inspiration4
 source materials into the normalized tables consumed by `artemis/run_demo.py`.
@@ -31,9 +31,9 @@ PROCESSED_DIR = ROOT / "data" / "processed" / "real_proxy"
 NHANES_DIR = ROOT / "data" / "proxy" / "nhanes"
 MMASH_DIR = ROOT / "data" / "proxy" / "physionet" / "mmash"
 INSPIRATION4_SUPP = ROOT / "data" / "proxy" / "inspiration4" / "supplementary_data"
-FINAL_SOURCE_DIR = ROOT / "docs" / "submission" / "final-source"
+DATA_PROVENANCE = ARTEMIS_DATA / "data_provenance.md"
 
-BUILD_VERSION = "0.2.2"
+BUILD_VERSION = "0.2.4"
 BUILD_PHASE = "real_public_proxy_demo"
 
 NHANES_BASE = "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles"
@@ -592,7 +592,7 @@ def write_manifest(row_counts: dict[str, int], source_inventory: list[dict]) -> 
         "generated_utc": datetime.now(UTC).replace(microsecond=0).isoformat(),
         "guardrail": (
             "Derived public proxy data demonstrate method mechanics for Artemis II-style analysis. "
-            "Controlled-access and private astronaut data remain outside this public packet."
+            "Controlled-access and private astronaut data remain outside this public repository."
         ),
         "sources": [
             {
@@ -611,7 +611,7 @@ def write_manifest(row_counts: dict[str, int], source_inventory: list[dict]) -> 
                 "name": "Inspiration4/SOMA public supplementary sources",
                 "role": "Human spaceflight biology source inventory and access-boundary context",
                 "url": "https://www.nature.com/articles/s41586-024-07639-y",
-                "access_status": "public supplementary inventory; controlled-access individual clinical values kept outside the public packet",
+                "access_status": "public supplementary inventory; controlled-access individual clinical values kept outside this repository",
             },
         ],
         "row_counts": row_counts,
@@ -628,7 +628,7 @@ def write_manifest(row_counts: dict[str, int], source_inventory: list[dict]) -> 
 
 
 def write_data_provenance(manifest: dict, row_counts: dict[str, int]) -> None:
-    FINAL_SOURCE_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_PROVENANCE.parent.mkdir(parents=True, exist_ok=True)
     lines = [
         "# Data Provenance",
         "",
@@ -636,7 +636,7 @@ def write_data_provenance(manifest: dict, row_counts: dict[str, int]) -> None:
         "",
         "## Summary",
         "",
-        "This document records the public sources, transforms, and access boundaries used to regenerate the normalized proxy tables for the Artemis II submission demo. The public packet contains derived public proxy data, with controlled-access and private astronaut data kept outside the repository.",
+        "This document records the public sources, transforms, and access boundaries used to regenerate the normalized proxy tables for the Artemis II public demo. This repository contains derived public proxy data, with controlled-access and private astronaut data kept outside the repository.",
         "",
         "## Source Summary",
         "",
@@ -653,7 +653,6 @@ def write_data_provenance(manifest: dict, row_counts: dict[str, int]) -> None:
             "```powershell",
             "python scripts\\build_real_proxy_demo_data.py --max-mmash-subjects 4",
             "python artemis\\run_demo.py",
-            "python scripts\\build_submission_package.py",
             "```",
             "",
             "## Row Counts",
@@ -680,7 +679,7 @@ def write_data_provenance(manifest: dict, row_counts: dict[str, int]) -> None:
             "- NHANES reference rows use adults age 30-55, non-smokers where available, and recreationally active participants where available.",
             "- MMASH rows use the first four complete public subject folders by numeric subject ID.",
             "- MMASH pseudo-phases split each 24-hour record into baseline, daytime/transit-mechanics, and recovery blocks. These analysis windows are distinct from mission phases.",
-            "- Inspiration4/SOMA inventory rows use public supplementary materials, with controlled-access individual clinical values kept outside the public packet.",
+            "- Inspiration4/SOMA inventory rows use public supplementary materials, with controlled-access individual clinical values kept outside this repository.",
             "",
             "## Missingness Handling",
             "",
@@ -702,7 +701,7 @@ def write_data_provenance(manifest: dict, row_counts: dict[str, int]) -> None:
             "The generated outputs show that the method can transform public proxy datasets into transparent individual-level evidence products for Artemis II-style review. Interpretation is bounded to method demonstration, individual trajectory review, and reproducible evidence generation.",
         ]
     )
-    (FINAL_SOURCE_DIR / "data-provenance.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    DATA_PROVENANCE.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def build(args: argparse.Namespace) -> BuildOutputs:
