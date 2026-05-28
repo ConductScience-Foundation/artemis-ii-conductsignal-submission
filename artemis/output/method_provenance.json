@@ -9,10 +9,10 @@
   },
   "guardrail": "Derived public proxy data demonstrate method mechanics for Artemis II-style analysis. Controlled-access and private astronaut data remain outside this public repository.",
   "input_files": {
-    "api/artemis_findings.json": "f99299eb3dc7684986091d53e6c11e9b12dcd1b0d81d919fe32fa17fb652baff",
+    "api/artemis_findings.json": "92d86e65a623dc56e714a811885b6f703ac20a4a5708d6a40a40fe2de39462bf",
     "artemis/data/proxy_observations.csv": "021431821916fa747d162049908742af1bf218537b1ed5e28fb3ca09ab7c616f",
     "artemis/data/reference_slices.csv": "0b9c3a536839b558bf10f2afc0621319a5c146edb1b40fe64ddc4fa6a36c8e86",
-    "artemis/data/source_manifest.json": "3bcfdff1675aeaa69d6ce58e6a9b370190361b35136886a07fcba1596b94bb5e"
+    "artemis/data/source_manifest.json": "8bcbad1b6dafe439643bae42aef037330f8676c876fa885a01f55eb7eb0f2ad2"
   },
   "output_hashes": {
     "artemis/output/baseline_table.csv": "136886b7453cc57e50941248790b2fe5d8572b2d4c2c130b7e5abc339c45cabe",
@@ -24,13 +24,13 @@
     "artemis/output/missingness_report.csv": "4940e67d92a917ab23eb83fef6c989673a1b1b5a0a87f68ed5ac1d9f18f547af",
     "artemis/output/recovery_table.csv": "8e561780bb02e605a8157af8d8b211ecaf0f05a51adcd8b4ac7d5737cb13f892",
     "artemis/output/reference_anchor_table.csv": "371f07c44728900a6a1e2871ff37ffdc435fa9bf386b30bc38a7548cfd092217",
-    "artemis/output/submission_summary.md": "2638899c36b6b25d9583aee0f3b1e8aacce30a4b106fbe20b8c347f7d2e1e8ee",
+    "artemis/output/submission_summary.md": "406bd5d226a34efd0f63e4512e4f55eb89030ba447fdc4333616d034e2d21a4d",
     "artemis/output/top_findings.svg": "207540c52329398ce432ce8eba2e5c9628cbd0c6210eb3add50daa9fa0181b9c",
     "artemis/output/trace_long.csv": "ff9766f81486abe0062b213def721bed9f1f267523b1f026de119768fea49324",
     "artemis/output/within_subject_change_table.csv": "d9c06fb8e47aa4f78a703ac9d2df890ef99c582a8fef2d6e8a28f849509c4152"
   },
-  "run_timestamp_utc": "2026-05-27T22:15:01+00:00",
-  "script_version": "0.4.1",
+  "run_timestamp_utc": "2026-05-28T12:21:47+00:00",
+  "script_version": "0.2.5",
   "source_urls": {
     "Inspiration4/SOMA public supplementary sources": "https://www.nature.com/articles/s41586-024-07639-y",
     "NHANES 2017-2018": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",

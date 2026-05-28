@@ -2,7 +2,7 @@
 
 Public code, derived public-proxy data, provenance, and reproducible outputs for the ConductSignal Artemis II methodology demonstration.
 
-Version: `0.2.4`
+Version: `0.2.5`
 
 Public repository:
 

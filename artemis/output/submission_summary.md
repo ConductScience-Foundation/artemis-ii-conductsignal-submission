@@ -1,6 +1,6 @@
 # ConductSignal Artemis II Demo Summary
 
-Script version: 0.4.1
+Script version: 0.2.5
 Data phase: real_public_proxy_demo
 Input findings: 4
 Crew members: MMASH_001, MMASH_002, MMASH_003, MMASH_004

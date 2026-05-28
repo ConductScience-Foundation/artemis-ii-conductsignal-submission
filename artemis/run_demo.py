@@ -33,7 +33,7 @@ SOURCE_MANIFEST_INPUT = DATA_DIR / "source_manifest.json"
 OUTPUT_DIR = ROOT / "artemis" / "output"
 WEB_DEMO_DIR = ROOT / "web" / "public" / "artemis" / "demo"
 
-SCRIPT_VERSION = "0.4.1"
+SCRIPT_VERSION = "0.2.5"
 SOURCE_URLS = {
     "NHANES 2017-2018": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overview.aspx?BeginYear=2017",
     "MMASH on PhysioNet": "https://physionet.org/content/mmash/1.0.0/",

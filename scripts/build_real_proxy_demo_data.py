@@ -33,7 +33,7 @@ MMASH_DIR = ROOT / "data" / "proxy" / "physionet" / "mmash"
 INSPIRATION4_SUPP = ROOT / "data" / "proxy" / "inspiration4" / "supplementary_data"
 DATA_PROVENANCE = ARTEMIS_DATA / "data_provenance.md"
 
-BUILD_VERSION = "0.2.4"
+BUILD_VERSION = "0.2.5"
 BUILD_PHASE = "real_public_proxy_demo"
 
 NHANES_BASE = "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles"

@@ -57,7 +57,7 @@ The builder includes available source values in numeric derived tables and recor
 |---|---|
 | `artemis/data/proxy_observations.csv` | `021431821916fa747d162049908742af1bf218537b1ed5e28fb3ca09ab7c616f` |
 | `artemis/data/reference_slices.csv` | `0b9c3a536839b558bf10f2afc0621319a5c146edb1b40fe64ddc4fa6a36c8e86` |
-| `api/artemis_findings.json` | `f99299eb3dc7684986091d53e6c11e9b12dcd1b0d81d919fe32fa17fb652baff` |
+| `api/artemis_findings.json` | `92d86e65a623dc56e714a811885b6f703ac20a4a5708d6a40a40fe2de39462bf` |
 
 ## Interpretation Boundary
 

@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="conductsignal-artemis-public-demo",
-    version="0.2.4",
+    version="0.2.5",
     description="Public proxy-data demo for Artemis II-style individual health-change review",
     author="ConductScience",
     packages=find_packages(),
